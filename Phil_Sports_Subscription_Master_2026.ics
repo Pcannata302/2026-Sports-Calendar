@@ -109,20 +109,6 @@ DTSTART;VALUE=DATE:20260406
 DTEND;VALUE=DATE:20260407
 END:VEVENT
 BEGIN:VEVENT
-UID:master-db89edb7fde51afbb7f34a7469176d2982c53c47@sports-schedule
-DTSTAMP:20260121T184533Z
-SUMMARY:Italy – World Cup Playoff Semifinal
-DTSTART;VALUE=DATE:20260326
-DTEND;VALUE=DATE:20260327
-END:VEVENT
-BEGIN:VEVENT
-UID:master-9ec68a5ad76b2c0cc12f2c80d51989cd968f72b2@sports-schedule
-DTSTAMP:20260121T184533Z
-SUMMARY:Italy – World Cup Playoff Final
-DTSTART;VALUE=DATE:20260331
-DTEND;VALUE=DATE:20260401
-END:VEVENT
-BEGIN:VEVENT
 UID:master-5ab2fcd5a1afdf94897fa3d54837c8cfb81024ec@sports-schedule
 DTSTAMP:20260121T184533Z
 SUMMARY:UEFA Champions League Final
@@ -1441,5 +1427,44 @@ DTSTART;TZID=America/New_York:20260625T220000
 DTEND;TZID=America/New_York:20260626T000000
 LOCATION:SoFi Stadium, Los Angeles
 DESCRIPTION:Provisional listing. Time is Eastern.
+END:VEVENT
+BEGIN:VEVENT
+UID:refresh-6aa5d4e0ca4b0d80cf969c8321814b9df6fe9907@sports-schedule
+DTSTAMP:20260204T214140Z
+SUMMARY:UEFA Champions League: Galatasaray vs Juventus (KO Play-off 1s
+ t leg)
+DTSTART;TZID=America/New_York:20260217T124500
+DTEND;TZID=America/New_York:20260217T151500
+LOCATION:Ali Sami Yen Spor Kompleksi, Istanbul
+DESCRIPTION:Kickoff per UEFA. Time shown in Eastern.
+END:VEVENT
+BEGIN:VEVENT
+UID:refresh-2fa7ae9ba25e4581e2005941a082b3a300688768@sports-schedule
+DTSTAMP:20260204T214140Z
+SUMMARY:UEFA Champions League: Juventus vs Galatasaray (KO Play-off 2n
+ d leg)
+DTSTART;TZID=America/New_York:20260225T150000
+DTEND;TZID=America/New_York:20260225T173000
+LOCATION:Juventus Stadium, Turin
+DESCRIPTION:Kickoff per UEFA. Time shown in Eastern.
+END:VEVENT
+BEGIN:VEVENT
+UID:refresh-c7ef62a000d687213b7860f0bce6132f637e158d@sports-schedule
+DTSTAMP:20260204T214140Z
+SUMMARY:Italy vs Northern Ireland (World Cup Qualifying Play-off Semi-
+ final)
+DTSTART;TZID=America/New_York:20260326T154500
+DTEND;TZID=America/New_York:20260326T180000
+LOCATION:Stadio di Bergamo, Bergamo
+DESCRIPTION:Kickoff per UEFA/FIGC. Time shown in Eastern.
+END:VEVENT
+BEGIN:VEVENT
+UID:refresh-1cbc4c0eea510685ae7ba4c44ffb004383c99c2b@sports-schedule
+DTSTAMP:20260204T214140Z
+SUMMARY:Italy World Cup Play-off Final (Opponent TBD)
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+DESCRIPTION:FIGC lists the play-off final for 31 March 2026; opponent/
+ time TBD.
 END:VEVENT
 END:VCALENDAR
